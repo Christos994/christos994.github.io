@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christos Georgoulakis — Android apps</title>
+<meta name="description" content="Android apps and games by Christos Georgoulakis.">
+<style>
+  :root {
+    --ground:  #f6f8f9;
+    --surface: #ffffff;
+    --line:    #dde5e9;
+    --ink:     #16232b;
+    --soft:    #4d626e;
+    --faint:   #708995;
+    --accent:  #0b6e88;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:  #0d171b;
+      --surface: #131f25;
+      --line:    #26383f;
+      --ink:     #e6eff2;
+      --soft:    #a3b7c0;
+      --faint:   #7f959f;
+      --accent:  #63d3e8;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  .page { max-width: 42rem; margin: 0 auto; padding: 4rem 1.25rem 5rem; }
+
+  header {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 2.5rem;
+  }
+
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.4rem);
+    line-height: 1.15;
+    letter-spacing: -.015em;
+    margin: 0 0 .6rem;
+  }
+
+  .role { color: var(--soft); margin: 0; font-size: 1.05rem; }
+
+  h2 {
+    font-size: .8rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--faint);
+    font-weight: 600;
+    margin: 0 0 1rem;
+  }
+
+  .app {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .app h3 {
+    font-size: 1.2rem;
+    margin: 0 0 .4rem;
+    letter-spacing: -.01em;
+  }
+
+  .app p { color: var(--soft); margin: 0 0 .9rem; }
+
+  .links { display: flex; flex-wrap: wrap; gap: 1.25rem; font-size: .92rem; }
+
+  a { color: var(--accent); }
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+    color: var(--faint);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <header>
+    <h1>Christos Georgoulakis</h1>
+    <p class="role">Independent Android developer.</p>
+  </header>
+
+  <h2>Apps</h2>
+
+  <div class="app">
+    <h3>Moon Football</h3>
+    <p>
+      A football league on the Moon. Ten matches against five alien sides, each
+      with a superpower of its own — lasers, falling craters, black holes,
+      giants, and a leap that crosses the pitch in one bound.
+    </p>
+    <div class="links">
+      <a href="https://christos994.github.io/moonfootball-releases/">Privacy policy</a>
+      <a href="https://christos994.github.io/moonfootball-releases/delete-data.html">Delete your data</a>
+    </div>
+  </div>
+
+  <div class="app">
+    <h3>Think &amp; Speak</h3>
+    <p>
+      Also on Google Play.
+    </p>
+    <div class="links">
+      <a href="https://christos994.github.io/think-and-speak-privacy/">Privacy policy</a>
+    </div>
+  </div>
+
+  <footer>
+    Contact: <a href="mailto:chris.georgoulakis@gmail.com">chris.georgoulakis@gmail.com</a>
+  </footer>
+
+</main>
+</body>
+</html>
